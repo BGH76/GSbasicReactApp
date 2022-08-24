@@ -1,38 +1,32 @@
-.App {
+.ui.secondary.menu {
+  padding: 10px 0 0 10px;
+  background-color: rgb(151, 246, 246, .15);
+  font-size: 1.5rem;
+}
+
+.welcome {
   text-align: center;
+  padding: 50px 0;
+  font-size: 5.5rem;
+  line-height: 6.5rem;
+  font-family: 'Oooh Baby', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about {
+  background-color: rgb(251, 249, 249, .5);
+}
+.ui.container.about {
+  padding: 15px 0;
+  font-size: 1.5rem; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-description {
+  padding: 15px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer */
+.ui.container.footer {
+  padding-top: 15px;
+  text-align: center;
+  /* font-size: 1.5rem; */
 }
